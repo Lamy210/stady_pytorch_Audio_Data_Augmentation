@@ -14,5 +14,5 @@
 	],
 	
 	//"postAttachCommand": "/bin/bash ${containerWorkspaceFolder}/setup.sh" // コンテナ作成後に実行するコマンド
-	"postAttachCommand": "pip install torch torchvision" 
+	"postAttachCommand": "pip install torch torchvision matplotlib" 
 }
